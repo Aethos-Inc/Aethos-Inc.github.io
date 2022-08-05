@@ -1,2 +1,2 @@
 # Aethos-Inc.github.io
-Prototype Site
+This is literally for a minecraft server im so stupid
