@@ -1,2 +1,2 @@
 # Aethos-Inc.github.io
-This is literally for a minecraft server im so stupid
+Aethos is a collective of goofballs
