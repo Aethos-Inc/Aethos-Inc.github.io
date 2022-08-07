@@ -12,20 +12,20 @@
   function checkPassword() {
    var password = document.getElementById("passwordBox");
    var passwordText = password.value;
-   if(passwordText == "26/03/2021") {
+   if(passwordText == "Ernest300") {
     return true;
    }
-   alert("Wrong password, Bozo");
+   alert("Access denied! Incorrect password!");
    return false;
    }
  </script>
 </head>
 <body>
  <p style="font-size: 30pt;">THE MONK DIAMOND DISCOVERY</p>
- <p>What's crack-a-lackin' Homeslice? Answer this crazy question to progress!</p>
- <p>Crazy Question: What is my credit card number???!!!!<input id="passwordBox" type="password"/></p>
- <a href="staffonly.html" onclick="return checkPassword();">
-  If you answered that crazy question click here
+ <p>Please enter the password to view this website.</p>
+ <p>Password:<input id="passwordBox" type="password"/></p>
+ <a href="monkdiamonddiscovery.html" onclick="return checkPassword();">
+  Click here to submit password and view website
  </a>
 </body>
 </html>
