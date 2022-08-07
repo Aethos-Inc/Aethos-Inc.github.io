@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Password</title>
- <style>
-  body {
-   background-color: lightblue;
-   padding: 30px;
-  }
- </style>
+ <title>Log-In</title>
  <script>
   function checkPassword() {
    var password = document.getElementById("passwordBox");
    var passwordText = password.value;
-   if(passwordText == "Ernest300") {
+   if(passwordText == "26/03/2021") {
     return true;
    }
-   alert("Access denied! Incorrect password!");
+   alert("Wrong answer, Bozo");
    return false;
    }
  </script>
 </head>
 <body>
- <p style="font-size: 30pt;">THE MONK DIAMOND DISCOVERY</p>
- <p>Please enter the password to view this website.</p>
- <p>Password:<input id="passwordBox" type="password"/></p>
+ <p>What's crack-a-lackin' Homeslice? Answer this crazy question to progress!</p>
+ <p>My crazy question: What is my credit card number?<input id="passwordBox" type="password"/></p>
  <a href="monkdiamonddiscovery.html" onclick="return checkPassword();">
-  Click here to submit password and view website
+  If you answered my crazy question, click here!
  </a>
 </body>
 </html>
