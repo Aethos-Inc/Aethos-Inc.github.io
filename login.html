@@ -3,20 +3,21 @@
 <head>
   <title> Log-In
     </title>
+    <script>
+    function checkPassword() {
+      var password = document.getElementById("passwordBox");
+      var passwordtext = password.value;
+      if(passwordText == "balls") {
+        return true;
+      }
+      alert("Wrong Bozo");
+      return false;
+    }
+    </script>
     </head>
     <body>
       <p> Password:<input id="passwordBox" type="password"/></p>
       <a href="staffonly.html" onclick="return checkPassword();"> Sign In </a>
     </body>
-      <script>
-      function checkPassword() {
-        var password = document.getElementById("passwordBox");
-        var passwordtext = password.value;
-        if(passwordText == "balls") {
-          return true;
-        }
-        alert("Wrong Bozo");
-        return false;
-      }
-      </script>
+
       </html>
